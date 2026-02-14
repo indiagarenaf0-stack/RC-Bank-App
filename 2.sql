@@ -1,0 +1,6 @@
+
+ALTER TABLE wallets ADD COLUMN display_name TEXT;
+ALTER TABLE wallets ADD COLUMN bio TEXT;
+ALTER TABLE wallets ADD COLUMN gender TEXT;
+ALTER TABLE wallets ADD COLUMN contact_number TEXT;
+ALTER TABLE wallets ADD COLUMN show_contact BOOLEAN DEFAULT 0;
